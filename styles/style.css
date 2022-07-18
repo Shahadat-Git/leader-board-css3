@@ -85,6 +85,12 @@ hr{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
 }
+.course{
+    padding: 14px 14px 14px 14px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.05);
+    
+}
 .courses .course img {
     width: 224px;
     height: 104px;
@@ -102,6 +108,20 @@ hr{
 }
 .fa-star.empty-star{
     color: #AEAEAE;
+}
+.course-duration{
+    background-color: #FFE4E8;
+    width: 94.83px;
+    height: 29.38px;
+    border-radius: 14.69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ED6B4F;
+}
+.course-duration .fa-clock{
+    color: #ED6B4F;
+    margin-right: 5px;
 }
 
 /* media Queries */
